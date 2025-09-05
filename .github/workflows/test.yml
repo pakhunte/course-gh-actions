@@ -8,7 +8,12 @@ on:
   # push:
   # schedule:
   #   - cron: "*/5 * * * *"
-  workflow_dispatch: 
+  push:
+    branches:
+      - main
+    paths:
+      - folder1/folder2/folder3/**
+        
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
