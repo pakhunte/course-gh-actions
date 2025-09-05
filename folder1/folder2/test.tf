@@ -24,3 +24,4 @@ output "server_pet_name" {
 output "generated_uuid" {
   value = random_uuid.my_uuid.result
 }
+
